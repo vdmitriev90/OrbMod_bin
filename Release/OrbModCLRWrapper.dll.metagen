@@ -1,0 +1,53 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly OrbModCLRWrapper, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly ZedGraph, Version=5.1.5.26099, Culture=neutral, PublicKeyToken=02a83cbd123fcd60: 
+	hash=None, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class OrbModCLRWrapper._ObsSet: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(OrbMod.ObsSet*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Int32 N : Public
+  Methods:
+    getIntObsSet(ObsSet*): PrivateScope, Public, HideBySig
+    getObsSetFromOrbMod(): PrivateScope, Public, Static, HideBySig
+    LoadObs(String, Int32): PrivateScope, Public, HideBySig
+    reset(): PrivateScope, Public, HideBySig
+    setTimeFrames(Double, Double): PrivateScope, Public, HideBySig
+    getObsNum(): PrivateScope, Public, HideBySig
+    TypeOfObserv(): PrivateScope, Public, HideBySig
+    DataToForm(GraphPane, DataGridView): PrivateScope, Public, HideBySig
+    ChangeTimeFrame(GraphPane, DataGridView, String&, String&, Double&, Double&): PrivateScope, Public, HideBySig
+    SetUseObs(String, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    SetObservationToCore(): PrivateScope, Public, HideBySig
+    UsedObs2String(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class OrbModCLRWrapper.OrbModWrap: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getVersion(): PrivateScope, Public, Static, HideBySig
+    Process(String): PrivateScope, Public, Static, HideBySig
+    loadKernels(String): PrivateScope, Public, Static, HideBySig
+    loadObservatories(String): PrivateScope, Public, Static, HideBySig
+    loadConfig(String): PrivateScope, Public, Static, HideBySig
+    parseTime(String, Int32, Double&): PrivateScope, Public, Static, HideBySig
+    setIC(String[], Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    getIC(Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig

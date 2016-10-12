@@ -1,0 +1,80 @@
+  v_integrator.ChangeColor.resources - Embedded, ContainedInManifestFile, 
+  v_integrator.Form1.resources - Embedded, ContainedInManifestFile, 
+  v_integrator.Form_HelpAbout.resources - Embedded, ContainedInManifestFile, 
+  v_integrator.Form_ObsView.resources - Embedded, ContainedInManifestFile, 
+  v_integrator.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly v_integrator, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly ZedGraph, Version=5.1.5.26099, Culture=neutral, PublicKeyToken=02a83cbd123fcd60: 
+	hash=None, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class v_integrator.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class v_integrator.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 symbolType : Public, Static
+    Int32 lineWidth : Public, Static
+    Int32 symbolSize : Public, Static
+Class v_integrator.Form_HelpAbout: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class v_integrator.Form_ObsView: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class v_integrator.ChangeColor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Panel col_Merc : Public
+    System.Windows.Forms.Panel col_Ven : Public
+    System.Windows.Forms.Panel col_Earth : Public
+    System.Windows.Forms.Panel col_Mars : Public
+    System.Windows.Forms.Panel col_Jup : Public
+    System.Windows.Forms.Panel col_CB : Public
+    System.Windows.Forms.Panel col_Sat : Public
+    System.Windows.Forms.Panel col_CB_HT : Public
+    System.Windows.Forms.Panel col_Sun : Public
+    System.Windows.Forms.Panel col_Pluto : Public
+    System.Windows.Forms.Panel col_Nep : Public
+    System.Windows.Forms.Panel col_Ur : Public
+    System.Windows.Forms.Panel col_add3 : Public
+    System.Windows.Forms.Panel col_Add5_HT : Public
+    System.Windows.Forms.Panel col_add5 : Public
+    System.Windows.Forms.Panel col_add4 : Public
+    System.Windows.Forms.Panel col_add2 : Public
+    System.Windows.Forms.Panel col_add1 : Public
+    System.Windows.Forms.Panel col_SRP : Public
+    System.Windows.Forms.Panel col_Atm : Public
+    System.Windows.Forms.Panel col_Rel2 : Public
+    System.Windows.Forms.Panel col_Rel1 : Public
+Struct Variables: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+Struct Mode: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+Struct FitMode: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
