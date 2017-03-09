@@ -72,11 +72,11 @@ On pictuer below are shown example for obsevations of Apophis asteroid.
 ### Plot graphs
 Visualize result of orbit propagation or fiiting (Plot graphs)
 There are two examples of such graphs.
-Graph  of accelerations for asteroid Apophis from 2005 to 2015
+Graph  of different source of accelerations for asteroid Apophis from 2005 to 2015
 
 ![](https://github.com/vdmitriev90/OrbMod_DotNET_UI/blob/master/Plot_acc.png)
 
-Graph  of post fit residuals    for asteroid Apophis from 2005 to 2015
+Graph of post fit residuals (right ascension) for observations of Apophis asteroid  from 2005 to 2015, obtained by this software
 
 ![](https://github.com/vdmitriev90/OrbMod_DotNET_UI/blob/master/ResidualsRA.png)
 
